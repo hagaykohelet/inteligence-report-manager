@@ -16,6 +16,15 @@ function save_report_to_db(report){
     database.push(report)
 }
 
-// let x = create_report(3,["knife"],"afdfd")
-// save_report_to_db(x)
-// console.log(database);
+
+function get_reports(database){
+{ 
+    database.sort((id1, id2)=> id1.id.localeCompare(id2.id))
+    return database
+}
+}
+
+
+function searching_report_id(database, id){
+    
+}
