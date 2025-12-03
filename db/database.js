@@ -1,1 +1,1 @@
-const data_base =[]
+const data_base = []
